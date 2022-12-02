@@ -1,5 +1,9 @@
 package com.zsavery.VisitCA.repo;
 
-public interface TourPackageRepository {
+import org.springframework.data.repository.CrudRepository;
+
+import com.zsavery.VisitCA.domain.TourPackage;
+
+public interface TourPackageRepository extends CrudRepository<TourPackage, String>{
     
 }
